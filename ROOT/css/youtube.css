@@ -1,0 +1,33 @@
+
+*{
+	box-sizing: border-box;
+}
+
+
+.youtubetable{
+	margin-right:40px;
+	width : 1110px;   /*추가된부분 */
+}
+
+.cell{
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 20px 10px;
+	width: 320px;
+	height: 250px;
+	border: 1px solid black;
+}
+
+.youtitle{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break:break-all;
+  width: 320px;
+  height: 20px;
+  margin-top:10px;
+}
+
+.channelname{
+	margin-top:10px;
+}

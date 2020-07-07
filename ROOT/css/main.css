@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean");
+@import "reset.css";
+@import "rank.css";
+@import "youtube.css";
+
+*{
+	box-sizing: border-box;
+}
+
+.box{
+	animation: 1.5s
+}
+
+body{
+	display : flex;
+	flex-direction:column;
+	background-image : url("img/mainbackground.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family : "Nanum Gothic", sans-serif;
+}
+
+.sectiontable{
+	margin: 65px 50px;
+	width:auto;
+}
+
+.sectionlogo{
+	text-align: center;
+}
+
+.logo{
+margin-bottom: 65px;
+}
+
+
+.section{
+	display: flex;
+	justify-content:flex-start;
+}
+
+.firstclass{
+	margin-top: 65px;
+	margin-bottom: 65px;
+	width: 1800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+header{
+	margin-top: 65px;
+	margin-bottom: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	border-radius: 15px; 
+	background-color: white;
+	box-shadow: 10px 10px 40px grey;
+}
+
+
+
+
+
+
+.lists{
+	width: 280px;
+	margin-top: 20px;
+		
+}
+
+.video{
+	margin-left:50px;
+}
+
+
+
+
+
+footer{
+	z-index: 10;
+	margin-top: auto;
+	width: auto;
+	height: 100px;
+	background-color: grey;
+	padding : 0px 100px;
+	color : white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;	
+	font-size: 14px;
+	line-height:20px;
+}
+
+.footeritem{
+	margin-top : 10px;
+}
